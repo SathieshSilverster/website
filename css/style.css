@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    background: rgb(10, 9, 10);
+    height: 80px;
+   
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+   padding-left: 20px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 10 5px;   
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+a:hover{
+    background: black;
+    transition: .5s;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box{
+    width: 50%;
+    padding:10px;
+    font-size: 20px;
+}
+.container{
+
+}
+.container-1{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.cardone{
+    border: 3px solid black;
+    width: 360px;
+    height: 200px;
+    margin: 5px 0px 30px 10px;
+    
+}
+.cardtwo{
+    width: 360px;
+    height: 200px;
+    margin: 5px 0px 30px 10px;
+    border: 3px solid black;
+}
